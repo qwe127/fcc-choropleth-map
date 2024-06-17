@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 29, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tooltip {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#legend-rect {
+    outline: 1.5px solid rgba(255, 255, 255, 0.24);
+
+}
+
+#legend-text {
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#description {
+    font-size: 0.9em;
+    margin-bottom: 40em;
+    position: absolute;
+}
